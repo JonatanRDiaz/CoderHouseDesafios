@@ -1,0 +1,569 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* estilo para sacar la línea a los links del menú */
+    .menu-lista a {
+        text-decoration: none;
+        color: #f8f8ff;
+    }
+
+    .ref-menu {
+        padding-right: 11px;
+        font-size: 13px;
+    }
+
+    
+/* estilo para foto link de facebook*/
+    .logomedia-facebook {
+        width: 25px; height: 25px; 
+        padding-top: 70px;
+    }
+/* estilo para foto link de Instagram*/
+    .logomedia-instagram {
+        width: 25px; height: 25px; 
+        padding-top: 70px;
+    }
+    /* estilo para foto link whatsapp*/
+    .logo-whatsapp {
+        width: 60px; height: 60px;
+        position: fixed;
+        bottom: 150px ;
+        left: 1280px;
+    }
+
+    /* estilo para foto del logo del menú ppal*/
+    .logo-menu {
+    height: 100%;
+    }
+
+    /* caja de menú ppal*/
+    .menu-principal {
+        top: 50px; 
+        background-color: #005f40;
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0px;
+    }
+
+
+    /* caja de lista secciones para el menú*/
+    .menu-lista {
+        font-family: 'Oswald', sans-serif;
+        display: inline-flex;
+        list-style: none;
+        padding-top: 10px;
+        padding-left: 660px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* estilos para foto del banner*/
+    .banner-photo {
+        height: 300px;
+        width: 100%;
+    }
+
+    /* estilos para h1 del banner*/
+
+    .h1-Banner {
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+        color: #f8f8ff;
+        position: absolute;
+        top: 23%;
+        left: 17%;
+    }
+    
+    /* estilos para texto del banner*/
+    .texto-banner {
+        font-family: 'Oswald', sans-serif;
+        color: #f8f8ff;
+        position: absolute;
+        top: 35%;
+        left: 38%;
+    }
+
+/* media querie para ocultar el banner en movile */
+
+    @media(max-width:768px){
+        .banner-photo {
+            height: 0%;
+            width: 0%;
+    }
+    .h1-Banner {
+        display: none;
+    }
+    .texto-banner {
+        display: none
+    }
+    }
+
+
+    /* caja de menú nosotros*/
+    .nosotros-estilos {
+        height: 250px;
+        background-color: #ededed;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+    }
+
+    /* estilos para texto de sección nosotros */
+    .nosotros-estilos p {
+        text-align: center;
+        text-transform: uppercase;
+        padding-left: 10px;
+        padding-top: 20px;
+        /* padding-top: 50px;
+        padding-right: 60px;
+        padding-left: 60px; */
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */  
+/* media queries para ajustar texto sección nosotros */
+    @media (max-width:768px){
+        .nosotros-estilos p {
+            font-size: xx-small;
+        }
+            }
+
+    /* estilos para h4 de sección nosotros */
+    .nosotros-estilos h4 {
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline;
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    /* caja de menú galería*/
+
+    .galeria-estilos {
+        height: 550px;
+        background-color: #ededed;   
+    }
+
+    /* estilos para h4 de sección galería */
+    .galeria-estilos h4 {
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline;
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    /* caja para fotos de sección galería */
+    .fotos-galeria {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    /* estilos para fotos de sección galería */
+    .carrusel-photo {
+        height: 400px;
+        width: 400px;
+        border: 2px solid #005f40;
+    }
+
+/* caja para sección serv para eventos */
+    .servicioParaEventos {
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        height: 400px;
+        background-color: #ededed;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    } 
+
+    .divFormularioServ {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: small;
+    }
+
+
+    .divEstilosServicio {
+        background-color: #ededed;
+    }
+
+    /* estilos para H4 sección serv para eventos */
+    .serv-para-eventosh4 {
+        height: 100px;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        background-color: #ededed;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline;
+        padding-top: 5px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    /* estilos para Texto sección serv para eventos */
+    .serviciosTexto {
+        text-align: justify;
+        text-transform: uppercase;
+        text-decoration: dashed;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        background-color: #ededed;
+        padding-bottom: 70px;
+    }
+
+
+
+ /* ------------------------------------------------------------------------------------------------ */  
+/* media queries para ajustar texto sección serv para eventos */
+    @media (max-width:768px){
+        .servicioParaEventos p {
+            font-size: xx-small;
+        }
+
+        .servParaEventos-estilos {
+            font-family: 'Oswald', sans-serif;
+            color: #005f40;
+            height: 1000px;
+            background-color: #ededed;
+        }
+
+        .texto-servParaEventos {
+            width: 500px;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contac-form-edit label, .col-sm-10 {
+            font-size: xx-small;
+        }
+
+        .contac-form-edit {
+            width: 50%;
+        }
+
+        .serv-para-eventosh4 {
+            font-size: x-small;
+        }
+            }
+
+
+
+
+    /* caja para  Texto sección serv para eventos */
+    .texto-servParaEventos {
+        padding-top: 20px;
+        height: 500px;
+        width: 25%;
+    }
+
+    /* caja para form. de contacto sección serv para eventos */
+    .formulario-contacto {
+        padding-top: 25px;
+        font-size: 12px;
+        height: 500px;
+    }
+
+
+
+
+
+
+    /* etilos para foto sección serv para eventos */
+    .photo-diseñoInterior {
+        height: 270px;
+    }
+
+    /* ------------------------------------------------------------------------------------------------ */  
+/* media queries para ocultar foto serv. para eventos*/
+@media (max-width:768px){
+    .photo-diseñoInterior {
+        display: none;
+    }
+        }
+
+
+    
+
+/* caja para sección productos */
+    .productos-estilos {
+        height: 400px;
+        background-color: #ededed;
+    }
+
+
+    /* caja para fotos sección productos */
+    .productos {
+        padding-top: 75px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    /* estilos para fotos sección productos */
+
+    .produc-photo {
+        height: 200px;
+        width: 200px;
+    }
+
+    /* estilos para H4 sección productos */
+    .productos-estilos h4 {
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline;
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+
+/* ------------------------------------------------------------------------------------------------ */  
+/* media queries para ajustar fotos de productos y sacar efectos */
+
+@media (max-width:768px) {
+    .produc-photo:hover {
+        transform: scale(-1);
+    }
+    .produc-photo {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------ */  
+
+
+    /* caja para sección contacto */
+    .contacto-estilos {
+        height: 400px;
+        background-color: #ededed;
+    }
+
+    /* estilos para H4 sección contacto */
+    .contacto-estilos h4 {
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: overline;
+        padding-top: 10px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+
+    /* caja estilo para mapa e hipervinculo sección contacto */
+    .contacto-estilos-boxgroup {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    /* caja estilo para texto sección contacto */
+    .texto-contacto {
+        padding-top: 110px;
+        height: 500px;
+        width: 25%;
+    }
+
+    /* estilos de texto para sección contacto */
+    .texto-contacto p, h5 {
+        text-align: justify;
+        text-transform: uppercase;
+        text-decoration: dashed;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        font-size: small;
+    }
+
+    .texto-contacto h5 {
+        text-decoration: underline;
+    }
+
+    /* estilos para foto mapa para sección contacto */
+    .photo-map {
+        padding-bottom: 150px;
+    }
+
+
+     /* ------------------------------------------------------------------------------------------------ */  
+/* media queries para ocultar foto mapa contacto*/
+@media (max-width:768px){
+    .photo-map {
+        display: none;
+    }
+        }
+
+
+
+    /* estilos para texto hipervinculo sobre foto mapa para sección contacto */
+    .contacto-estilos-boxgroup a {
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        font-size: small;
+    }
+
+/* caja para sección footer */
+    .footer-style {
+        height: 100px;
+        background-color: #dbd8d6;
+        font-display: flex;
+        align-content: center;
+    }
+
+/* estilos para texto diseñador por..., sección footer */
+    .diseñado-por {
+        font-family: 'Bangers', cursive;
+        text-align: center;
+        padding-top: 10px;
+        color: rgb(235, 82, 27);
+        font-size: smaller;
+    }
+
+    /* estilos para texto sección footer */
+    .text-footer {
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        font-size: 10px;
+        padding-top: 12px;
+    }
+
+    /* estilos para texto hipervinculo sección footer */
+    .text-footer a {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
+        color: #005f40;
+        font-size: smaller;
+    }
+
+
+    /* -------------------------ANIMACIONES Y TRANSICIONES ----------------------------------------- */
+
+
+
+/* Animación para botones de menú */
+
+    .menu-lista li a:hover {
+    text-decoration: line-through;
+    color: #f8f678;
+    background-color: #1b4b3b;
+    border-radius: 3px;
+    }
+
+
+/* gradiente en footer */
+    .footer-style {
+        background-image: linear-gradient(to right, #dbd8d6, #464443);
+    }
+
+/* gradiente en menú ppal */
+    .menu-principal {
+        background-image: linear-gradient(to right, #005f40, #60dfb4);
+    }
+
+    /* efecto desenfocado en serv. para eventos */
+    .photo-diseñoInterior:hover {
+        filter: blur(4px)
+    }
+/* efecto escala en fotos de producto */
+    .produc-photo:hover {
+        transform: scale(1.5);
+    }
+/* efecto escala en fotos mapa */
+    .photo-map:hover {
+        transform: scale(1.2);
+    }
+/* efecto opacidad en fotos galeria */
+    .fotos-galeria img:hover {
+        filter: brightness(80%); 
+    }
+
+
+/* animación banner foto */
+    .h1-Banner, .texto-banner {
+        animation-duration: 3s;
+        animation-name: aparecer;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+            left: 100px;
+            top: 100px;
+        }
+
+        25% {
+            opacity: 2.5;
+            left: 200px;
+            top: 100px;
+
+        }
+
+        50% {
+            opacity: 5;
+            left: 100px;
+            top: 200px;
+        }
+
+        75% {
+            opacity: 7.5;
+            left: 100px;
+            top: 100px;
+        }
+
+        100% {
+            opacity: 10;
+        }
+    }
+
+
+
+   
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
