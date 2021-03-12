@@ -28,11 +28,25 @@ var valorCuotaMinorista;
 var tipoCliente;
 
 
+
 var primerMonto = parseInt(prompt("Ingrese el monto del primer artículo"));
 var segundoMonto = parseInt(prompt("Ingrese el monto del segundo artículo"));
 var tercerMonto = parseInt(prompt("Ingrese el monto del tercer artículo"));
 var cuartoMonto = parseInt(prompt("Ingrese el monto del cuarto artículo"));
 var quintoMonto = parseInt(prompt("Ingrese el monto del quinto artículo"));
+
+
+// la idea es completar estos datos a través de algunas funciones para cada planta. //
+
+
+const objPlanta = {
+    tipoPlanta: null,
+    precioPlanta: "$10",
+    grupoPlanta: null
+    };
+  
+    // fin. //
+
 
 
 sumar (primerMonto, segundoMonto, tercerMonto, cuartoMonto, quintoMonto)
