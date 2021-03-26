@@ -13,6 +13,13 @@ Si la compra es menor a 5000 pesos, pasa a ser de tipo minorista, y no aplica de
 /* me gustaria que al momento de la correcion me indiquen para que caso en este ejemplo convenia usar let, var o const (no me queda claro en que momento usar una u otra*/
 
 
+
+
+    
+
+
+
+
 var primerMonto;
 var segundoMonto;
 var tercerMonto;

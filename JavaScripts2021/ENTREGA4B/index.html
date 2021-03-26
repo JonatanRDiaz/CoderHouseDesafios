@@ -20,13 +20,21 @@
     </h2>
 
 
-    <script type="text/javascript">
-        document.write("<h5>GRACIAS POR SU COMPRA</h5>")
+    <input type="button" value="Seleccionar Producto" onclick="console.log('Producto seleccionado');" />
 
-        type="text/javascript">
-document.write("NOMBRE DEL CLIENTE")
 
-// NOMBRE DEL CLIENTE INGRESADO POR PROMT
+    <a id="link" href=" ">Pulsa aquí para finalizar compra</a>
+
+    <script>
+        
+
+var link = document.getElementById('link');
+
+link.addEventListener('click', function(e) {
+    e.preventDefault(); 
+    alert('Su compra a finalizado');
+}, false);
+
 
 
 
